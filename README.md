@@ -16,4 +16,8 @@ Messages can be sent both back and forth
 
 ## Packet Loss Testing
 
-ACK stats of each bit transferred are shown during the process. ACK Loss is shown in case of simulated packet loss. In this case, the Client tries to resend the lost bit until Server acknowledges the bit as fully recieved. 
+ACK stats of each bit transferred are shown during the process. ACK Loss is shown in case of simulated packet loss. In this case, the Client tries to resend the lost bit until Server acknowledges the bit as fully recieved. All the parameters on PAcket Loss are fully tunable in case the user doesnt want to test the Packet Loss functionality
+
+## Future
+
+A GUI is in works for simple automation of the basic procedure to get this platform running. It's simpler, looks nicer and is more user friendly
