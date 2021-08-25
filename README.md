@@ -1,5 +1,5 @@
 # LOCAL-IP-TextMessaging-Python-Scripts
-Python scripts for a local WLAN IP based text messaging service
+Python scripts for a local WLAN IP based text messaging service with additional packet loss testing functionaliy and a detailed bit by bit ACK analysis
 
 ## Description
 
