@@ -20,4 +20,4 @@ ACK stats of each bit transferred are shown during the process. ACK Loss is show
 
 ## Future
 
-A GUI is in works for simple automation of the basic procedure to get this platform running. It's simpler, looks nicer and is more user friendly
+A Windows graphical user interface (GUI) is in works for simple automation of the basic procedure to get this platform running. It's simpler, looks nicer and is more user friendly
