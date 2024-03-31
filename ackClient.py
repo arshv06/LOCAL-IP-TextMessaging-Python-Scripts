@@ -65,16 +65,18 @@ while True:
             conn.send(message[i].encode())
             b=conn.recv(4096)
             b=b.decode()
-            print(b)
+            print(b+ ": for Packet No." +(str(i)))
             if(b!="ACK Lost"):
                 time.sleep(1)
-                print("ACK'd! N {"+(str(i+1))+" to "+str(k+1)+"} Sending next packet")
+                print("N is {"+(str(i))+" to "+str(k)+"} Sending next packet")
                 i=i+1
-                k=k+1
+                if:
+                    k=i
+                    k == i + j
                 time.sleep(1)
             else:
                 time.sleep(1)
-                print("NACK'd! N{ "+(str(i+1))+" to "+str(k+1)+"} Resending")
+                print("NACK'd! N{ "+(str(i))+" to "+str(k)+"} Resending Packet No. "+(str(i)))
                 time.sleep(1)
 
           
