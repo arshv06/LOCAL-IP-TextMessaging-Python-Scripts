@@ -41,7 +41,7 @@ while True:
        f=random.randint(0,4)
        if(f==0):
           b="ACK Lost"
-          print ("Faking ACK Loss") 
+          print ("Faking ACK Loss for packet No. "+((str(i)))) 
           message = sock.recv(4096)
           message = message.decode()
           sock.send(b.encode())
@@ -59,4 +59,3 @@ while True:
        
     print ('Received %s bytes from %s' % (len(message), sock_name))
     print (sock_name, ": ", m)
-
